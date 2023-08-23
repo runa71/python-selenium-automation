@@ -8,3 +8,7 @@ Feature: Sign Page Test Cases
     Then  verify Clicking is working for sign in page
 
     # Enter steps here
+  Scenario: Logged out user sees Sign in when clicking on returns and Orders
+    Given Open Amazon page
+    When Click Cart icon
+    Then verify Clicking is working for sign in page
