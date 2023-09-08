@@ -12,7 +12,7 @@ def click_sigin_popup(context):
     context.driver.find_element(By.CSS_SELECTOR, '.a-spacing-small').click()
 
 
-@then ('verify Clicking is working for sign in page')
+@then('verify Clicking is working for sign in page')
 def verify_clicking_is_working(context):
     expected_result='Click Sign In from popup'
     actual_result = context.driver.find_element(By.CSS_SELECTOR,'.a-spacing-small')

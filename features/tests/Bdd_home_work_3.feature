@@ -12,3 +12,4 @@ Feature: Sign Page Test Cases
     Given Open Amazon page
     When Click Cart icon
     Then verify Clicking is working for sign in page
+
